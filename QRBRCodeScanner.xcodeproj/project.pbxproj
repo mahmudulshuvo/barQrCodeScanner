@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C85CBBD91F398FA9004408E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBBD81F398FA9004408E7 /* AppDelegate.swift */; };
-		C85CBBDB1F398FA9004408E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBBDA1F398FA9004408E7 /* ViewController.swift */; };
-		C85CBBDE1F398FA9004408E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85CBBDC1F398FA9004408E7 /* Main.storyboard */; };
-		C85CBBE01F398FA9004408E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CBBDF1F398FA9004408E7 /* Assets.xcassets */; };
-		C85CBBE31F398FA9004408E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85CBBE11F398FA9004408E7 /* LaunchScreen.storyboard */; };
 		C85CBBEE1F398FA9004408E7 /* QRBRCodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBBED1F398FA9004408E7 /* QRBRCodeScannerTests.swift */; };
 		C85CBBF91F398FA9004408E7 /* QRBRCodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBBF81F398FA9004408E7 /* QRBRCodeScannerUITests.swift */; };
+		C85CBC081F39932A004408E7 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBC061F39932A004408E7 /* QRCodeViewController.swift */; };
+		C85CBC091F39932A004408E7 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CBC071F39932A004408E7 /* QRScannerController.swift */; };
+		C85CBC0B1F399354004408E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C85CBC0A1F399354004408E7 /* Info.plist */; };
+		C85CBC0D1F39937A004408E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85CBC0C1F39937A004408E7 /* Main.storyboard */; };
+		C85CBC0F1F399396004408E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85CBC0E1F399396004408E7 /* Assets.xcassets */; };
+		C85CBC111F3993AE004408E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85CBC101F3993AE004408E7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +38,18 @@
 /* Begin PBXFileReference section */
 		C85CBBD51F398FA9004408E7 /* QRBRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRBRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CBBD81F398FA9004408E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C85CBBDA1F398FA9004408E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C85CBBDD1F398FA9004408E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C85CBBDF1F398FA9004408E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C85CBBE21F398FA9004408E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C85CBBE41F398FA9004408E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85CBBE91F398FA9004408E7 /* QRBRCodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRBRCodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CBBED1F398FA9004408E7 /* QRBRCodeScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRBRCodeScannerTests.swift; sourceTree = "<group>"; };
 		C85CBBEF1F398FA9004408E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85CBBF41F398FA9004408E7 /* QRBRCodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRBRCodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85CBBF81F398FA9004408E7 /* QRBRCodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRBRCodeScannerUITests.swift; sourceTree = "<group>"; };
 		C85CBBFA1F398FA9004408E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85CBC061F39932A004408E7 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		C85CBC071F39932A004408E7 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		C85CBC0A1F399354004408E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85CBC0C1F39937A004408E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C85CBC0E1F399396004408E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85CBC101F3993AE004408E7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				C85CBBD81F398FA9004408E7 /* AppDelegate.swift */,
-				C85CBBDA1F398FA9004408E7 /* ViewController.swift */,
-				C85CBBDC1F398FA9004408E7 /* Main.storyboard */,
-				C85CBBDF1F398FA9004408E7 /* Assets.xcassets */,
-				C85CBBE11F398FA9004408E7 /* LaunchScreen.storyboard */,
-				C85CBBE41F398FA9004408E7 /* Info.plist */,
+				C85CBC0C1F39937A004408E7 /* Main.storyboard */,
+				C85CBC0E1F399396004408E7 /* Assets.xcassets */,
+				C85CBC101F3993AE004408E7 /* LaunchScreen.storyboard */,
+				C85CBC0A1F399354004408E7 /* Info.plist */,
+				C85CBC061F39932A004408E7 /* QRCodeViewController.swift */,
+				C85CBC071F39932A004408E7 /* QRScannerController.swift */,
 			);
 			path = QRBRCodeScanner;
 			sourceTree = "<group>";
@@ -193,6 +197,7 @@
 				TargetAttributes = {
 					C85CBBD41F398FA9004408E7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LBS8CGX65G;
 						ProvisioningStyle = Automatic;
 					};
 					C85CBBE81F398FA9004408E7 = {
@@ -232,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85CBBE31F398FA9004408E7 /* LaunchScreen.storyboard in Resources */,
-				C85CBBE01F398FA9004408E7 /* Assets.xcassets in Resources */,
-				C85CBBDE1F398FA9004408E7 /* Main.storyboard in Resources */,
+				C85CBC0B1F399354004408E7 /* Info.plist in Resources */,
+				C85CBC111F3993AE004408E7 /* LaunchScreen.storyboard in Resources */,
+				C85CBC0F1F399396004408E7 /* Assets.xcassets in Resources */,
+				C85CBC0D1F39937A004408E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85CBBDB1F398FA9004408E7 /* ViewController.swift in Sources */,
+				C85CBC081F39932A004408E7 /* QRCodeViewController.swift in Sources */,
+				C85CBC091F39932A004408E7 /* QRScannerController.swift in Sources */,
 				C85CBBD91F398FA9004408E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +301,6 @@
 			targetProxy = C85CBBF51F398FA9004408E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C85CBBDC1F398FA9004408E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C85CBBDD1F398FA9004408E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C85CBBE11F398FA9004408E7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C85CBBE21F398FA9004408E7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C85CBBFB1F398FA9004408E7 /* Debug */ = {
@@ -414,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBS8CGX65G;
 				INFOPLIST_FILE = QRBRCodeScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.QRBRCodeScanner;
@@ -426,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBS8CGX65G;
 				INFOPLIST_FILE = QRBRCodeScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.QRBRCodeScanner;
@@ -507,6 +497,7 @@
 				C85CBBFF1F398FA9004408E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85CBC001F398FA9004408E7 /* Build configuration list for PBXNativeTarget "QRBRCodeScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +506,7 @@
 				C85CBC021F398FA9004408E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85CBC031F398FA9004408E7 /* Build configuration list for PBXNativeTarget "QRBRCodeScannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +515,7 @@
 				C85CBC051F398FA9004408E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
